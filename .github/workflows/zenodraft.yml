@@ -2,6 +2,7 @@ name: zenodraft
 on:
   workflow_dispatch:
   release:
+    type: published
 
 jobs:
 
