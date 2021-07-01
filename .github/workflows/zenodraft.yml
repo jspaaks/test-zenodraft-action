@@ -2,7 +2,7 @@ name: zenodraft
 on:
   workflow_dispatch:
   release:
-    type: published
+    types: [published]
 
 jobs:
 
