@@ -22,7 +22,7 @@ jobs:
           with:
             publish: false
             sandbox: true
-            upsert-doi: false
+            upsert-doi: true
             upsert-location: doi
             filenames: README.md CITATION.cff
             metadata: .zenodo.json
