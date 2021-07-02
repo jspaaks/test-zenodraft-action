@@ -6,7 +6,7 @@ on:
 ##      - created
 ##      - deleted
 ##      - edited
-      - prereleased
+#      - prereleased
       - published
 #      - released
 ##      - unpublished
