@@ -5,7 +5,7 @@ on:
     types:
 ##      - created
 ##      - deleted
-      - edited
+##      - edited
       - prereleased
       - published
       - released
