@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   release:
     types:
-      - created
+      - released
 
 
 jobs:
@@ -26,3 +26,4 @@ jobs:
             upsert-doi: false
             upsert-location: doi
             filenames: README.md CITATION.cff
+            metadata: .zenodo.json
