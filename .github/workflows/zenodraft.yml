@@ -21,7 +21,6 @@ jobs:
           with:
             publish: false
             sandbox: true
-            upsert-doi: true
+            upsert-doi: false
             upsert-location: doi
             filenames: README.md CITATION.cff
-
