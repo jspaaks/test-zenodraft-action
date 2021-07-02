@@ -3,7 +3,14 @@ on:
   workflow_dispatch:
   release:
     types:
+##      - created
+##      - deleted
+      - edited
+      - prereleased
+      - published
       - released
+##      - unpublished
+     
 
 
 jobs:
