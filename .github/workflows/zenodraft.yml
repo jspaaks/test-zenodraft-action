@@ -13,8 +13,8 @@ jobs:
       steps:
         - name: checkout
           uses: actions/checkout@v2      
-        - name: git info
-          run: git log --max-count=10 --name-only
+        - name: git status
+          run: git status
         - name: Create a draft snapshot
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
