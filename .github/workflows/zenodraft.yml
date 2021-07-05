@@ -19,10 +19,10 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             ZENODO_SANDBOX_ACCESS_TOKEN: ${{ secrets.ZENODO_SANDBOX_ACCESS_TOKEN }}
           uses: zenodraft/action@8-upserting-octokit
-          with:
-            publish: false
-            sandbox: true
-            upsert-doi: true
-            upsert-location: doi
+#           with:
+#             publish: false
+#             sandbox: true
+#             upsert-doi: true
+#             upsert-location: doi
 #             filenames: README.md CITATION.cff
-            metadata: .zenodo.json
+#             metadata: .zenodo.json
